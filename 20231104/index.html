@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/normalize.css">    
+    <link rel="stylesheet" href="./css/all.min.css">    
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Repara BIT</title>
+<!--
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>-->
+</head>
+
+<body>
+    <header class="contenedor">
+        <!-- Crear una clase contenedor para justificar todas las secciones -->
+        <div class="contenido-header">
+            <div class="barra">
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="logo de Repara Bit">
+                </a>
+                <!-- Modificar tamaño a 16px -->
+                <!-- corregir estilos de link en menú, creando una clase llamada navegación -->
+                <!-- incluir efecto sombra text-shadow: Xrem Xrem Xrem color;-->
+                <div>
+                    <nav class="centrar-menu">
+                        <a href="#">Inicio</a>
+                        <a href="#">Nosotros</a>
+                        <a href="#">Servicios</a>
+                        <a href="#">Contacto</a>
+                    </nav>
+                </div>
+            </div>  
+            <div id="slogan" class="centrar-texto">
+                <h1>Repara Bit</h1>
+                <h4>Nosotros lo reparamos</h4>
+            </div>
+        </div>              
+
+    </header>
+
+
+    <!-- Aplicar clase contenedor a sección -->
+    <section class="contenedor"> 
+        
+        <!-- Aplicar clase centrar-texto y fuente300 a h2 -->
+        <h2 class="centrar-texto fuente300">¿Por qué elegirnos?</h2>
+        <div class="elegirnos centrar-texto">                 
+            <div class="razones">
+                <i class="fas fa-tools"></i>
+                <h3>Técnicos altamente capacitados</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In earum, dolores tempora quo assumenda fuga harum rerum eum deleniti commodi, explicabo veritatis ipsum fugit cum dolorem autem quia nam distinctio.</p>
+            </div>        
+            <div class="razones">                
+                <i class="fas fa-search-dollar"></i>
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In earum, dolores tempora quo assumenda fuga harum rerum eum deleniti commodi, explicabo veritatis ipsum fugit cum dolorem autem quia nam distinctio.</p>
+            </div>        
+            <div class="razones">                
+                <i class="fas fa-user-shield"></i>
+                <h3>Reparaciones con garantía</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In earum, dolores tempora quo assumenda fuga harum rerum eum deleniti commodi, explicabo veritatis ipsum fugit cum dolorem autem quia nam distinctio.</p>
+            </div>        
+            <div class="razones">                
+                <i class="fas fa-house-user"></i>
+                <h3>Reparaciones a domicilio</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In earum, dolores tempora quo assumenda fuga harum rerum eum deleniti commodi, explicabo veritatis ipsum fugit cum dolorem autem quia nam distinctio.</p>
+            </div>
+        </div>        
+    </section>
+
+    <!-- Crear sección principal con nuestros servicios -->
+    <!-- Aplicar clase contenedor -->
+    <main class="contenedor">
+        <!-- H2 centrar texto y fuente300 -->
+        <h2 class="centrar-texto fuente300" >Nuestros Servicios</h2>
+                
+        <div  class="oferta centrar-texto" > <!-- crear clase .oferta mismo formato que .elegirnos y centrar texto-->
+
+            <div class="servicio " > <!-- crear clase .servicio efecto border: tam punteado color -->
+                <img src="./images/servicio01.jpg" alt="servicio01">
+                
+                <div class="contenido-servicio" > <!-- crear .contenido-servicio padding entre columnas -->
+                    <h3>Recuperación de información</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique minus rem molestias suscipit facilis omnis nulla quibusdam, ipsam veritatis dolor quae quod? Quae totam ipsam non sed quaerat! Amet.</p>
+                    <p class="precio">Costos Aproximados: $2,000-$20,000</p> <!--crear clase precio color: X, grosor de letra: 700  -->
+                    <a href="#" class="boton boton-principal">Detalles</a> <!-- crear .boton y .boton-principal -->
+                </div>
+            </div>
+            <div class="servicio ">
+                <img src="./images/servicio02.jpg" alt="servicio02">
+                <div class="contenido-servicio">
+                    <h3>Mantenimiento de Sistemas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique minus rem molestias suscipit facilis omnis nulla quibusdam, ipsam veritatis dolor quae quod? Quae totam ipsam non sed quaerat! Amet.</p>
+                    <p class="precio">Costos Aproximados: $500-$10,000</p>
+                    <a href="#" class="boton boton-principal">Detalles</a>
+                </div>
+            </div>
+            <div class="servicio">
+                <img src="./images/servicio03.jpg" alt="servicio03">
+                <div class="contenido-servicio">
+                    <h3>Actualización del equipo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique minus rem molestias suscipit facilis omnis nulla quibusdam, ipsam veritatis dolor quae quod? Quae totam ipsam non sed quaerat! Amet.</p>
+                    <p class="precio">Costos Aproximados: $500-$100,000</p>
+                    <a href="#" class="boton boton-principal">Detalles</a>
+                </div>
+            </div>
+            <div class="servicio">
+                <img src="./images/servicio04.png" alt="servicio04">
+                <div class="contenido-servicio">
+                    <h3>Zona Gamer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique minus rem molestias suscipit facilis omnis nulla quibusdam, ipsam veritatis dolor quae quod? Quae totam ipsam non sed quaerat! Amet.</p>
+                    <p class="precio">Costos Aproximados: $1,000-$60,000</p>
+                    <a href="#" class="boton boton-principal">Detalles</a>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Crear sección Nuestros números -->    
+    <section class="centrar-texto numeros" > <!-- .numeros (background-color: X;) y centrar texto -->        
+        <h2 class="fuente300" >Nuestros números</h2> <!-- fuente300 -->
+        <div class="informacion"> <!-- .informacion heredar flex -->
+            <div> <!-- plug para anima numeros -->    
+                <div class="postinformacion">     
+                <h3 class="infoh3">Capacitación Especialistas</h3>
+                <i class="fa-solid fa-user-graduate fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i>
+                <h4 class="infoh4"><span class="counter">100</span>%</h4>
+                </div> 
+            </div>
+            <div class="postinformacion">            
+                <h3 class="infoh3">Atención a domicilio</h3>
+                <i class="fa-solid fa-house-medical-circle-check fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i>
+                <h4 class="infoh4"><span class="counter">584</span>visitas</h4>
+            </div>
+            <div class="postinformacion">            
+                <h3 class="infoh3">% Información recuperada</h3>
+                <i class="fa-solid fa-user-secret fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i>
+                <h4 class="infoh4"><span class="counter ">95</span>% en discos dañados</h4> 
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN DE SCRIPT-->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+</body>
+</html>
