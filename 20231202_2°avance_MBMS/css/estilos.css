@@ -1,0 +1,236 @@
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*=== Tamaños principales de fuentes ===*/
+h1{
+    color: green;
+    font-size: 40px;
+}
+#mid {
+    vertical-align: middle;
+}
+
+
+h2{
+    font-size: 33px;
+}
+h3{
+    font-size: 30px;
+    
+}
+h4{
+    font-size: 26px;
+}
+
+footer{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.redes-sociales {
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.redes-sociales a {
+    color: whitesmoke;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+/*=== Estilos recurrentes ==== */
+.centrar-texto{
+    text-align: center;
+}
+.fuente300{
+    font-weight: 300;
+}
+/* crear clase contenedor */
+.contenedor{
+    max-width: auto;
+    margin: auto;
+    
+
+}
+img{
+    max-width: 100%;
+}
+#slogan{
+    text-align: center;
+    
+}
+
+
+.logo{
+    border: none;
+}
+
+/*=== Estilos botones ==== */
+/* .boton */
+.boton{
+    border-color: gray;
+    color: rgb(41, 141, 49);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-style: inset;
+    margin-top: 20px;
+    display: block;
+    border-radius: 20px;
+}
+
+.boton:hover{
+    background-color: rgb(156, 211, 104);
+    color: white;
+}
+/* .boton-principal */
+.boton-principal{
+    background-color: #F7F7DD;
+    
+}
+
+
+
+/* SECCIONES */
+/*=== HEADER ==== */
+header{
+    background-image: url(../images/principal.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.barra{
+    display: flex;    
+}
+
+/* .slogan */
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+
+/*=== NAVEGACION ==== */
+/* crear estilos de .navegación a */
+
+/* utilizar pseudoclases .navegación a:hover */
+
+.centrar-menu{
+    margin-left: 240px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.centrar-menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: -15px -25px 6px  black;
+    justify-content: center;
+    
+    
+}
+
+.centrar-menu a:hover{
+    /*color: rgb(39, 165, 39);*/
+    color: -5px -3px 6px  black;
+    text-shadow: #3AAB0A;
+}
+
+
+
+
+/*=== ¿POR QUE ELEGIRNOS? ==== */
+
+.elegirnos{
+    display: flex;
+    justify-content: space-around;
+}
+.oferta{
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+.razones{
+    padding: 20px;
+}
+.razones i{
+    color: green;
+    font-size: 45px;
+}
+
+/*==== SERVICIOS ==== */
+/* crear .servicio */
+/*.servicio{
+    border: 7px dotted gray; dotted es el estilo punteado*/
+.servicio{
+    border: 2px none rgb(116, 115, 115);
+    background-color: #F7F7DD;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.servicio:hover{
+    background-color: rgb(94, 190, 86);
+}
+/* crear .contenido-servicio */
+.contenido-servicio{
+    padding: 20px;
+}
+
+.counter{
+    font-size: 30px;
+}
+
+
+/*=== NUESTROS NUMEROS ==== */
+/* Crear sección Nuestros números */
+.numeros{
+    background-color: #E3F2B7;
+    
+}
+.informacion {
+    display: flex;  
+}
+.fa-solid{
+    font-size: 50px;
+    background-color: #F1F1D6;
+    padding: 10px;
+    border-radius: 10px
+}
+.postinformacion{
+    border: 2px none rgb(116, 115, 115);
+    background-color: #586E31;
+    padding: 10px;
+    margin: 10px 60px;
+    border-radius: 20px;    
+}
+.infoh3{
+    color: greenyellow;
+    text-shadow: -1px -2px 2px black;
+}
+.infoh4{
+    color: yellow;
+    text-shadow: -1px -2px 2px black;
+}
+.fa-brands{
+    width: auto;
+    height: auto;
+    color: aliceblue;
+}
