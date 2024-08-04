@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+.guia{
+    text-align: center;
+}
+p{
+    color: red;
+    background-color: white;
+}
+
+.caja{
+    /* Área de contenido */
+    width: 200px;
+    height: 200px;
+    /* Área fronteriza */
+    border: 5px solid black;
+    background-color: blue;
+    /* Área de relleno */    
+    /* padding: 50px; */
+    padding: 100px 100px; /* el primero dato es altura y el segundo es ancho */
+    /* padding-left: 3px; */
+    /* Área de margen */    
+    /* margin: 30px; */
+    margin: 50px 100px;
+}

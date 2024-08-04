@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+}
+
+h2{
+    background-color: cyan;
+    /* display: block; */
+    display: inline;
+}
+
+p{
+    background-color: orange;
+    display: inline-block;
+}
+h3{
+    background-color: olive;
+}
+.flex-container{    
+    display: flex;    
+}
+/* .no-visible{
+    display: none;
+} */
